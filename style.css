@@ -1,0 +1,121 @@
+/*__HOME PAGE*/
+.my-beautiful-extention, .nf-icon-button{
+    background-color: transparent;
+    border-color: transparent;
+    opacity: 0.3;
+}
+
+.my-beautiful-extention .ptrack-content:hover{
+    opacity: 1;
+}
+
+
+
+/*__FULL SCREEN*/
+
+.my-beautiful-extention .nfp-control-row, top-left-controls, .PlayerControlsNeo__bottom-controls, .nfp-popup-control, .nfp-button-control {
+    opacity: 1;
+    background-color: red;
+}
+
+.my-beautiful-extention, .pinning-header .secondary-navigation {
+    right: 7%;
+}
+
+
+.my-beautiful-extention .akira-header .account-dropdown-button .caret, .pinning-header .account-dropdown-button .caret{
+    border-top-color: rgb(255, 0, 0);
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+    transform: scale(2)
+}
+
+.my-beautiful-extention .akira-header .account-dropdown-button .caret, .pinning-header .account-dropdown-button:after{
+    content: "   USCITA";
+}
+
+.my-beautiful-extention .akira-header .account-dropdown-button .caret, .pinning-header .account-dropdown-button{
+    color: red;
+    font-size: 15px;
+}
+
+
+
+/*RED BORDER ANIMATION*/
+
+/*border_home page*/
+
+.my-beautiful-extention, body {
+    border-style: solid;
+    border-width: 0px;
+    border-color: transparent;
+    z-index: 999;
+    animation-name: Border_home;
+    animation-duration: 600s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes Border_home {
+  0%   {border-width:0px; border-color: transparent; }
+  25%   {border-width:0px; border-color: transparent; }
+  27% {border-width:40px; border-color: red;}
+  29%   {border-width:0px; border-color: transparent;}
+  50%   {border-width:0px; border-color: transparent;}
+  52% {border-width:40px; border-color: red;}
+  54%   {border-width:0px; border-color: transparent;}
+  75%   {border-width:0px; border-color: transparent;}
+  77% {border-width:40px; border-color: red;}
+  79%   {border-width:0px; border-color: transparent;}
+  81% {border-width:40px; border-color: red;}
+  83%   {border-width:0px; border-color: transparent;}
+  85% {border-width:40px; border-color: red;}
+  95% {border-width:40px; border-color: red;}
+  100%   {border-width:0px; border-color: transparent;}
+
+}
+
+/*border_full screen*/
+
+.my-beautiful-extention, .VideoContainer{
+    border-style: solid;
+    border-width: 20px;
+    border-color: red;
+    z-index: 999;
+    animation-name: Border_full;
+    animation-duration: 7200s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes Border_full {
+  0%   {border-width:0px; border-color: transparent; width: 100%; height: 100%}
+    
+  15%  {border-width:0px; border-color: transparent; width: 100%; height: 100%}
+  17%  {border-width:40px; border-color: red; width: 95%; height: 90%}
+  19%  {border-width:0px; border-color: transparent; width: 100%; height: 100%}
+    
+  30%  {border-width:0px; border-color: transparent; width: 100%; height: 100%}
+  32%  {border-width:40px; border-color: red; width: 95%; height: 90%}
+  40%  {border-width:0px; border-color: transparent; width: 100%; height: 100%}
+    
+  64%  {border-width:0px; border-color: transparent; width: 100%; height: 100%}
+  65%  {border-width:40px; border-color: red; width: 95%; height: 90%}
+  66%  {border-width:0px; border-color: transparent; width: 100%; height: 100%}
+  67%  {border-width:40px; border-color: red; width: 95%; height: 90%}
+  68%  {border-width:0px; border-color: transparent; width: 100%; height: 100%}
+  69%  {border-width:40px; border-color: red; width: 95%; height: 90%}
+  70%  {border-width:0px; border-color: transparent; width: 100%; height: 100%}
+  71%  {border-width:40px; border-color: red; width: 95%; height: 90%}
+  72%  {border-width:0px; border-color: transparent; width: 100%; height: 100%}
+  73%  {border-width:40px; border-color: red; width: 95%; height: 90%}
+  74%  {border-width:0px; border-color: transparent; width: 100%; height: 100%}
+  75%  {border-width:40px; border-color: red; width: 95%; height: 90%}
+  76%  {border-width:0px; border-color: transparent; width: 100%; height: 100%}
+  77%  {border-width:40px; border-color: red; width: 95%; height: 90%}
+  78%  {border-width:40px; border-color: red; width: 95%; height: 90%}
+  79%  {border-width:0px; border-color: transparent; width: 100%; height: 100%}
+  80%  {border-width:40px; border-color: red; width: 95%; height: 90%}
+    
+  99%  {border-width:40px; border-color: red; width: 95%; height: 90%}
+  100% {border-width:0px; border-color: transparent; width: 100%; height: 100%}
+}
