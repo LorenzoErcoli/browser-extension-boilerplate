@@ -1,5 +1,20 @@
+body{
+    background: black;
+}
+
 #container {
+  font-family: 'Montserrat', sans-serif;
   margin: 0px 20px 20px;
   width: 260px;
   overflow: scroll;
+  color: white;
+}
+
+h1{
+    color: red;
+}
+
+a{
+    color: red;
+    text-decoration: none;
 }
