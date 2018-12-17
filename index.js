@@ -1,7 +1,6 @@
 // Listen for messages
-const body = document.querySelector("body");
-
 browser.runtime.onMessage.addListener(receiver);
+const body = document.querySelector("body");
 
 // A message is received
 function receiver(request, sender, sendResponse) {
