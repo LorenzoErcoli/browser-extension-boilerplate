@@ -1,5 +1,5 @@
 /*__HOME PAGE*/
-.my-beautiful-extention, .nf-icon-button{
+.my-beautiful-extention .nf-icon-button{
     background-color: transparent;
     border-color: transparent;
     opacity: 0.3;
@@ -13,17 +13,27 @@
 
 /*__FULL SCREEN*/
 
-.my-beautiful-extention .nfp-control-row, top-left-controls, .PlayerControlsNeo__bottom-controls, .nfp-popup-control, .nfp-button-control {
+.my-beautiful-extention .nfp-control-row, 
+.my-beautiful-extention .top-left-controls, 
+.my-beautiful-extention .PlayerControlsNeo__bottom-controls, 
+.my-beautiful-extention .nfp-popup-control, 
+.my-beautiful-extention .nfp-button-control {
     opacity: 1;
     background-color: red;
 }
 
-.my-beautiful-extention, .pinning-header .secondary-navigation {
+.my-beautiful-extention .pinning-header,
+.my-beautiful-extention .secondary-navigation {
     right: 7%;
 }
 
 
-.my-beautiful-extention .akira-header .account-dropdown-button .caret, .pinning-header .account-dropdown-button .caret{
+.my-beautiful-extention .akira-header, 
+.my-beautiful-extention .account-dropdown-button, 
+.my-beautiful-extention .caret,
+.my-beautiful-extention .pinning-header, 
+.my-beautiful-extention .account-dropdown-button,
+.my-beautiful-extention .caret{
     border-top-color: rgb(255, 0, 0);
     border-right-color: transparent;
     border-bottom-color: transparent;
@@ -31,11 +41,20 @@
     transform: scale(2)
 }
 
-.my-beautiful-extention .akira-header .account-dropdown-button .caret, .pinning-header .account-dropdown-button:after{
+
+.my-beautiful-extention .akira-header,
+.my-beautiful-extention .account-dropdown-button, 
+.my-beautiful-extention .caret,
+.my-beautiful-extention .pinning-header, 
+.my-beautiful-extention .account-dropdown-button :after{
     content: "   USCITA";
 }
 
-.my-beautiful-extention .akira-header .account-dropdown-button .caret, .pinning-header .account-dropdown-button{
+.my-beautiful-extention .akira-header,
+.my-beautiful-extention .account-dropdown-button,
+.my-beautiful-extention .caret, 
+.my-beautiful-extention .pinning-header,
+.my-beautiful-extention .account-dropdown-button{
     color: red;
     font-size: 15px;
 }
